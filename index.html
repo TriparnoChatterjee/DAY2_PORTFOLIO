@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Portfolio</title>
+</head>
+
+
+<body>
+    <header class="main-header">
+        <div>
+            <a class="main-header__brand" href="">TC</a>
+        </div>
+        <nav class="main-nav">
+            <ul class="main-nav__items">
+
+                <li class="main-nav__item">
+                    <a href="#">Home
+                    </a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="#projects">Projects</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="#skills">Skills</a>
+                </li>
+
+                <li class="main-nav__item main-nav__item--cta">
+                    <a href="#contact">Contact Me !</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="hero-section" id="#">
+        <div class="hero-image">
+            <div class="hero-image__container">
+                <img src="./assets/hero_img.jpg" alt="" srcset="">
+            </div>
+
+        </div>
+        <div class="hero-intro">
+            <h3>
+                Triparno Chatterjee
+            </h3>
+            <p class="hero-intro_tagline">
+                A Student of Amity University , eager to work with love and devotion , and learning new budding
+                technologies
+            </p>
+            <h2>About Me</h2>
+            <p class="hero-intro_desc">Eagerly Solving Problems and implementing them using Web and Flutter Applications
+                .Participated In Open Source Contribution Fest,Hacktoberfest2021.</p>
+            <div class="hero-fast_connect">
+                <a href="http://">
+                    <div class="hero-fast_connect--ig">
+                    </div>
+                </a>
+                <a href="http://">
+                    <div class="hero-fast_connect--fb">
+                    </div>
+                </a>
+                <a href="http://">
+                    <div class="hero-fast_connect--twt">
+                    </div>
+                </a>
+                <a href="http://">
+                    <div class="hero-fast_connect--git">
+                    </div>
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+    <h2 class="skills_tag">SKILLS</h2>
+    <div class="skills-container" id="skills">
+        <div class="skills">
+
+            <div class="skill-item">
+                HTML
+                <div class="container">
+                    <div class="skill html skill_font_specs">
+                        80%
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-item">
+                DART
+                <div class="container">
+                    <div class="skill css skill_font_specs">70%</div>
+                </div>
+            </div>
+
+            <div class="skill-item">
+                C++
+                <div class="container">
+                    <div class="skill cpp skill_font_specs">90%</div>
+                </div>
+            </div>
+
+            <div class="skill-item">
+                SQL
+                <div class="container">
+                    <div class="skill sql skill_font_specs">60%</div>
+                </div>
+            </div>
+            <div class="skill-item">
+                Java
+                <div class="container">
+                    <div class="skill java skill_font_specs">50%</div>
+                </div>
+            </div>
+            <div class="skill-item">
+                C
+                <div class="container">
+                    <div class="skill c">80%</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h2 class="project_tag">PROJECTS</h2>
+    <div class="projects" id="projects">
+        <div class="project-1">
+            <div class="project-img project_img-1"></div>
+            <h4>Calc++</h4>
+            <p>A Calculator for performing scientific calculations , Live currency conversions,Unit Conversions   </p>
+        </div>
+        <div class="project-1">
+            <div class="project-img project_img-2"></div>
+            <h4>Musica</h4>
+            <p>An oline music streaming Applications which helps the user to stream music on the go .Uses the Spotify APi </p>
+        </div>
+        <div class="project-1">
+            <div class="project-img project_img-3"></div>
+            <h4>Facebook Clone</h4>
+            <p>This is a clone of the Facebook Website.A clone is such that it adds all functionalities as a mockup</p>
+        </div>
+        <div class="project-1">
+            <div class="project-img project_img-4"></div>
+            <h4>Todo Pro</h4>
+            <p>A Todo Application which lets the user maintain there todo tasks and stores then in Firebase performing CRUD operations</p>
+        </div>
+    </div>
+    <h2 class="project_tag">CONTACT ME</h2>
+    <div class="contact_form" id="contact">
+        <form action="">
+            <label for="fname">Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+            <label for="lname">Email</label>
+            <input type="text" id="lname" name="emial" placeholder="email">
+
+            <label for="country">Country</label>
+            <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+            </select>
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+</body>
+
+</html>

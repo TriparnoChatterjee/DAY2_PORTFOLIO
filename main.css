@@ -1,0 +1,314 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu&display=swap");
+* {
+  box-sizing: border-box;
+}
+.main-header {
+  width: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 50px;
+  background-color: rgb(139, 198, 139);
+  position: sticky;
+  padding: 0.7rem 2rem;
+  z-index: 60;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main-header__brand {
+  text-decoration: none;
+  font-family: "Noto Sans Display", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: black;
+}
+
+.main-nav {
+  display: flex;
+}
+.main-nav__items {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.main-nav__item {
+  margin: 0 1rem;
+}
+
+.main-nav__item a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding: 0.2rem 0;
+  font-family: "Ubuntu", sans-serif;
+}
+.main-nav__item a:hover,
+.main-nav__item a:active {
+  color: white;
+}
+
+.main-nav__item--cta a {
+  color: black;
+  background: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-family: "Ubuntu", sans-serif;
+}
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active,
+.mobile-nav__item--cta a:hover,
+.mobile-nav__item--cta a:active {
+  color: black;
+  background: rgb(230, 227, 227);
+  border: none;
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  align-items: center;
+  /* background-image: url('./assets/intro_bg.jpg');
+ background-repeat: no-repeat;
+ background-size: cover;
+  justify-content: center; */
+}
+.hero-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  /* border: 2px solid black; */
+}
+.hero-image__container {
+  /* border: 2px solid black; */
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.hero-image img {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.hero-intro {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.hero-intro h3 {
+  font-family: "Roboto", sans-serif;
+}
+.hero-intro h2 {
+  font-family: "Roboto", sans-serif;
+}
+.hero-intro_tagline {
+  font-family: "Ubuntu", sans-serif;
+}
+.hero-intro_desc {
+  font-family: "Ubuntu", sans-serif;
+}
+.hero-fast_connect {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.hero-fast_connect--ig {
+  width: 3rem;
+  height: 3rem;
+  background: red;
+  background: url("https://cdn-icons-png.flaticon.com/512/174/174855.png");
+  background-size: cover;
+}
+.hero-fast_connect--fb {
+  width: 3rem;
+  height: 3rem;
+  background: red;
+  background: url("https://cdn-icons-png.flaticon.com/512/1312/1312139.png");
+  background-size: cover;
+}
+.hero-fast_connect--twt {
+  width: 3rem;
+  height: 3rem;
+  background: red;
+  background: url("https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/twitter_circle-512.png");
+  background-size: cover;
+}
+.hero-fast_connect--git {
+  width: 3rem;
+  height: 3rem;
+  background: red;
+  background: url("https://cdn-icons-png.flaticon.com/512/25/25231.png");
+  background-size: cover;
+}
+
+.skills_tag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 2rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  background-color: rgb(192, 192, 192);
+  width: 80%;
+  height: 40%;
+  border-radius: 15px;
+}
+.skills-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.skills {
+  display: grid;
+  grid-template-columns: repeat(3, 20fr);
+  /* display: flex;
+      flex-direction: column;
+      margin: auto; */
+  margin-top: 2rem;
+  width: 90%;
+  height: 100%;
+  padding: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+}
+.skill {
+  background-color: rgb(116, 194, 92);
+  color: white;
+  padding: 1%;
+  text-align: right;
+  font-size: 20px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.skill-item {
+  padding-top: 1rem;
+  padding-left: 0rem;
+  font-size: 1.19rem;
+  font-family: "Ubuntu", sans-serif;
+}
+.html {
+  width: 80%;
+  height: 100%;
+}
+.css {
+  width: 70%;
+  height: 100%;
+}
+.cpp {
+  width: 90%;
+  height: 100%;
+}
+.c {
+  width: 85%;
+  height: 100%;
+}
+.java {
+  width: 50%;
+  height: 100%;
+}
+.sql {
+  width: 60%;
+  height: 100%;
+}
+.skill_font_specs {
+  font-size: 1rem;
+}
+
+/*PROJECTS*/
+.project_tag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.19rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.project-1 {
+  display: flex;
+  flex-direction: column;
+  background: whitesmoke;
+  width: 15%;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 5%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.project-img {
+  width:4rem;
+  height: 4rem;
+  /* background: url("https://img.icons8.com/color/344/musical--v1.png"); */
+  background-size: contain;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+}
+.project_img-1 {
+  
+  background-image: url("https://cdn-icons-png.flaticon.com/512/891/891175.png");
+}
+.project_img-2 {
+ 
+    background-image: url("https://img.icons8.com/color/344/musical--v1.png");
+}
+.project_img-3 {
+    background-color: black;
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Facebook_f_logo_%282021%29.svg/640px-Facebook_f_logo_%282021%29.svg.png");
+}
+.project_img-4 {
+    background-image: url("https://img.icons8.com/parakeet/344/experimental-list-parakeet.png");
+}
+
+/*CONTACT*/
+.contact_form {
+    margin: auto;
+    width: 50vw;
+  }
+  input[type="text"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type="submit"] {
+    background-color: #8304aa;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  

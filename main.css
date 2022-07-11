@@ -240,8 +240,24 @@
   margin-bottom: 3rem;
   font-family: "Roboto", sans-serif;
 }
-
+.skills-section{
+  display: flex;
+  flex-direction: column;
+  height: 60vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.project-section{
+  display: flex;
+  flex-direction: column;
+  height: 60vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
 .projects {
+  height: max-content;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
